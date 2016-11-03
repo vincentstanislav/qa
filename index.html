@@ -2,22 +2,21 @@
 <html>
 <head>
 <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css">
-<script src="https://code.jquery.com/jquery-1.12.3.js"></script>
-<script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
 <style type="text/css">
 div.dataTables_wrapper {
-         width: 1000px;
-         margin: 0 auto;
- <!--		font-weight: bold;
+        width: 1000px;
+        margin: 0 auto;
+ <!--	font-weight: bold;
  		font-family: verdana, arial, helvetica, sans-serif;-->
- 		font-weight: bold;
  		font-family: "Open Sans";
-		font: 13px Open Sans;
+		font-size: 10px;
   		color: #7c7c7c;
   		padding-left: 6px;
   		padding-right: 7px;
     }
 </style>
+<script src="https://code.jquery.com/jquery-1.12.3.js"></script>
+<script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
 
 <script>
 
@@ -29,10 +28,11 @@ $(document).ready(function() {
 		"lengthMenu": [[25, 50, -1], [25, 50, "All"]]
     });
 });
+
 document.write('<style type="text/css">body{display:none}</style>');
 jQuery(function($) {
 $('body').css('display','block');
-});     
+});   
 
 </script>
 </head>
@@ -44,6 +44,7 @@ $('body').css('display','block');
                 <th>Name</th>
                 <th>Office</th>
                 <th>Role</th>
+				<th>Competence</th>
                 <th>Skill</th>
             </tr>
         </thead>
@@ -52,3836 +53,4471 @@ $('body').css('display','block');
                 <th>Name</th>
                 <th>Office</th>
                 <th>Role</th>
+				<th>Competence</th>
                 <th>Skill</th>
             </tr>
         </tfoot>
         <tbody>
-  <tr>
+<tr>
 <th>Hajný David</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Inspire Products Competencies</th>
 <th>Inspire Designer - Expert</th>
 </tr>
 <tr>
 <th>Hajný David</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Inspire Products Competencies</th>
 <th>Inspire Automation - Expert</th>
 </tr>
 <tr>
 <th>Hajný David</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Inspire Products Competencies</th>
 <th>Inspire Content Manager - Advanced</th>
 </tr>
 <tr>
 <th>Hajný David</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Inspire Products Competencies</th>
 <th>Inspire Interactive Classic - Basic</th>
 </tr>
 <tr>
 <th>Hajný David</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Inspire Products Competencies</th>
 <th>Inspire Connect Java - Advanced</th>
 </tr>
 <tr>
 <th>Hajný David</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Inspire Products Competencies</th>
 <th>Inspire Connect .NET - Advanced</th>
 </tr>
 <tr>
 <th>Hajný David</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Inspire Products Competencies</th>
 <th>Inspire Approval - Basic</th>
 </tr>
 <tr>
 <th>Hajný David</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Inspire Products Competencies</th>
 <th>Inspire Tracker - Basic</th>
 </tr>
 <tr>
 <th>Hajný David</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Inspire Products Competencies</th>
 <th>Inspire E-mail Gateway - Basic</th>
 </tr>
 <tr>
 <th>Hajný David</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Inspire Products Competencies</th>
 <th>Inspire Compare - Basic</th>
 </tr>
 <tr>
 <th>Hajný David</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Inspire Products Competencies</th>
 <th>GMC License Manager - Expert</th>
 </tr>
 <tr>
 <th>Hajný David</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Operating Systems</th>
 <th>Windows - Advanced</th>
 </tr>
 <tr>
 <th>Hajný David</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Operating Systems</th>
 <th>Linux - Basic</th>
 </tr>
 <tr>
 <th>Hajný David</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Operating Systems</th>
 <th>Solaris - Basic</th>
 </tr>
 <tr>
 <th>Hajný David</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Web Servers</th>
 <th>IIS - Basic</th>
 </tr>
 <tr>
 <th>Hajný David</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Web Servers</th>
 <th>Apache Tomcat - Basic</th>
 </tr>
 <tr>
 <th>Hajný David</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>ESB</th>
 <th>JMS Queue - Intermediate</th>
 </tr>
 <tr>
 <th>Hajný David</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>ESB</th>
 <th>IBM M-Queue - Intermediate</th>
 </tr>
 <tr>
 <th>Hajný David</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Database</th>
 <th>MSSQL - Basic</th>
 </tr>
 <tr>
 <th>Hajný David</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Programming</th>
 <th>C - Basic</th>
 </tr>
 <tr>
 <th>Hajný David</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Programming</th>
 <th>Python - Intermediate</th>
 </tr>
 <tr>
 <th>Hajný David</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Programming</th>
 <th>JAVA  - Intermediate</th>
 </tr>
 <tr>
 <th>Hajný David</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Programming</th>
 <th>C# - Intermediate</th>
 </tr>
 <tr>
 <th>Hajný David</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Programming</th>
 <th>HTML - Basic</th>
 </tr>
 <tr>
 <th>Hajný David</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Programming</th>
 <th>XML - Intermediate</th>
 </tr>
 <tr>
 <th>Hajný David</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Programming</th>
 <th>Groovy - Advanced</th>
 </tr>
 <tr>
 <th>Hajný David</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Virtualization</th>
 <th>Virtual Box - Basic</th>
 </tr>
 <tr>
 <th>Hajný David</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Virtualization</th>
 <th>VMWare - Basic</th>
 </tr>
 <tr>
 <th>Hajný David</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Security</th>
 <th>Firewall - Intermediate</th>
 </tr>
 <tr>
 <th>Hajný David</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Security</th>
 <th>SFTP - Advanced</th>
 </tr>
 <tr>
 <th>Hajný David</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Technical Related Competencies</th>
 <th>Programming/Application Development - Intermediate</th>
 </tr>
 <tr>
 <th>Hajný David</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Technical Related Competencies</th>
 <th>Technical support and troubleshooting - Expert</th>
 </tr>
 <tr>
 <th>Hajný David</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Technical Related Competencies</th>
 <th>Web Development - Basic</th>
 </tr>
 <tr>
 <th>Hajný David</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Outputs</th>
 <th>PDF</th>
 </tr>
 <tr>
 <th>Hajný David</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Outputs</th>
 <th>AFP</th>
 </tr>
 <tr>
 <th>Hajný David</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Outputs</th>
 <th>PS</th>
 </tr>
 <tr>
 <th>Hajný David</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Outputs</th>
 <th>Docx</th>
 </tr>
 <tr>
 <th>Hajný David</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Outputs</th>
 <th>PPML</th>
 </tr>
 <tr>
 <th>Hajný David</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Outputs</th>
 <th>TNO</th>
 </tr>
 <tr>
 <th>Hajný David</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Domain Knowledge</th>
 <th>PSP/BPO - Intermediate</th>
 </tr>
 <tr>
 <th>Hajný David</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Domain Knowledge</th>
 <th>Insurance - Intermediate</th>
 </tr>
 <tr>
 <th>Hajný David</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Domain Knowledge</th>
 <th>Telco - Intermediate</th>
 </tr>
 <tr>
 <th>Hajný David</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Domain Knowledge</th>
 <th>Bank - Expert</th>
 </tr>
 <tr>
 <th>Hajný David</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Language</th>
 <th>English - Intermediate</th>
 </tr>
 <tr>
 <th>Lang Jan</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Inspire Products Competencies</th>
 <th>Inspire Designer - Expert</th>
 </tr>
 <tr>
 <th>Lang Jan</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Inspire Products Competencies</th>
 <th>Inspire Automation - Expert</th>
 </tr>
 <tr>
 <th>Lang Jan</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Inspire Products Competencies</th>
 <th>Inspire Content Manager - Expert</th>
 </tr>
 <tr>
 <th>Lang Jan</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Inspire Products Competencies</th>
 <th>Inspire Interactive - Advanced</th>
 </tr>
 <tr>
 <th>Lang Jan</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Inspire Products Competencies</th>
 <th>Inspire Interactive Classic - Advanced</th>
 </tr>
 <tr>
 <th>Lang Jan</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Inspire Products Competencies</th>
 <th>Inspire Dynamic Communication - Basic</th>
 </tr>
 <tr>
 <th>Lang Jan</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Inspire Products Competencies</th>
 <th>Inspire Connect Java - Expert</th>
 </tr>
 <tr>
 <th>Lang Jan</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Inspire Products Competencies</th>
 <th>Inspire Connect .NET - Expert</th>
 </tr>
 <tr>
 <th>Lang Jan</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Inspire Products Competencies</th>
 <th>Inspire Approval - Advanced</th>
 </tr>
 <tr>
 <th>Lang Jan</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Inspire Products Competencies</th>
 <th>Inspire Messenger - Basic</th>
 </tr>
 <tr>
 <th>Lang Jan</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Inspire Products Competencies</th>
 <th>Inspire Cloud - Basic</th>
 </tr>
 <tr>
 <th>Lang Jan</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Inspire Products Competencies</th>
 <th>Inspire Scaler - Basic</th>
 </tr>
 <tr>
 <th>Lang Jan</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Inspire Products Competencies</th>
 <th>Inspire Hybridmail - Basic</th>
 </tr>
 <tr>
 <th>Lang Jan</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Inspire Products Competencies</th>
 <th>Inspire Storefront - Basic</th>
 </tr>
 <tr>
 <th>Lang Jan</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Inspire Products Competencies</th>
 <th>Inspire Consolidate - Advanced</th>
 </tr>
 <tr>
 <th>Lang Jan</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Inspire Products Competencies</th>
 <th>Inspire Tracker - Basic</th>
 </tr>
 <tr>
 <th>Lang Jan</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Inspire Products Competencies</th>
 <th>Inspire E-mail Gateway - Basic</th>
 </tr>
 <tr>
 <th>Lang Jan</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Inspire Products Competencies</th>
 <th>Inspire Control - Basic</th>
 </tr>
 <tr>
 <th>Lang Jan</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Inspire Products Competencies</th>
 <th>Inspire Compare - Advanced</th>
 </tr>
 <tr>
 <th>Lang Jan</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Inspire Products Competencies</th>
 <th>Inspire Mobile - Basic</th>
 </tr>
 <tr>
 <th>Lang Jan</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Inspire Products Competencies</th>
 <th>GMC License Manager - Advanced</th>
 </tr>
 <tr>
 <th>Lang Jan</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Operating Systems</th>
 <th>Windows - Advanced</th>
 </tr>
 <tr>
 <th>Lang Jan</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Operating Systems</th>
 <th>Mac - Basic</th>
 </tr>
 <tr>
 <th>Lang Jan</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Operating Systems</th>
 <th>Linux - Basic</th>
 </tr>
 <tr>
 <th>Lang Jan</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Operating Systems</th>
 <th>Solaris - Basic</th>
 </tr>
 <tr>
 <th>Lang Jan</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Operating Systems</th>
 <th>AIX - Basic</th>
 </tr>
 <tr>
 <th>Lang Jan</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Web Servers</th>
 <th>IIS - Advanced</th>
 </tr>
 <tr>
 <th>Lang Jan</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Web Servers</th>
 <th>Apache HTTP Server - Intermediate</th>
 </tr>
 <tr>
 <th>Lang Jan</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Web Servers</th>
 <th>Apache Tomcat - Advanced</th>
 </tr>
 <tr>
 <th>Lang Jan</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Web Servers</th>
 <th>WebLogic - Intermediate</th>
 </tr>
 <tr>
 <th>Lang Jan</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Web Servers</th>
 <th>WebSphere - Advanced</th>
 </tr>
 <tr>
 <th>Lang Jan</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Web Servers</th>
 <th>Jboss - Basic</th>
 </tr>
 <tr>
 <th>Lang Jan</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>ESB</th>
 <th>ESB - Advanced</th>
 </tr>
 <tr>
 <th>Lang Jan</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>ESB</th>
 <th>iFrame - Basic</th>
 </tr>
 <tr>
 <th>Lang Jan</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>ESB</th>
 <th>SSO - Advanced</th>
 </tr>
 <tr>
 <th>Lang Jan</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>ESB</th>
 <th>JMS Queue - Expert</th>
 </tr>
 <tr>
 <th>Lang Jan</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>ESB</th>
 <th>IBM M-Queue - Advanced</th>
 </tr>
 <tr>
 <th>Lang Jan</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>ESB</th>
 <th>F5 Load Balancer - Basic</th>
 </tr>
 <tr>
 <th>Lang Jan</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>ESB</th>
 <th>Cisco Load Balancer - Intermediate</th>
 </tr>
 <tr>
 <th>Lang Jan</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Database</th>
 <th>MSSQL - Expert</th>
 </tr>
 <tr>
 <th>Lang Jan</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Database</th>
 <th>MySQL - Intermediate</th>
 </tr>
 <tr>
 <th>Lang Jan</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Database</th>
 <th>MS Access - Basic</th>
 </tr>
 <tr>
 <th>Lang Jan</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Database</th>
 <th>Oracle - Advanced</th>
 </tr>
 <tr>
 <th>Lang Jan</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Programming</th>
 <th>C - Basic</th>
 </tr>
 <tr>
 <th>Lang Jan</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Programming</th>
 <th>Python - Intermediate</th>
 </tr>
 <tr>
 <th>Lang Jan</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Programming</th>
 <th>JAVA  - Expert</th>
 </tr>
 <tr>
 <th>Lang Jan</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Programming</th>
 <th>JavaScript - Advanced</th>
 </tr>
 <tr>
 <th>Lang Jan</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Programming</th>
 <th>C++ - Basic</th>
 </tr>
 <tr>
 <th>Lang Jan</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Programming</th>
 <th>C# - Expert</th>
 </tr>
 <tr>
 <th>Lang Jan</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Programming</th>
 <th>VBA - Basic</th>
 </tr>
 <tr>
 <th>Lang Jan</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Programming</th>
 <th>HTML - Intermediate</th>
 </tr>
 <tr>
 <th>Lang Jan</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Programming</th>
 <th>CSS - Intermediate</th>
 </tr>
 <tr>
 <th>Lang Jan</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Programming</th>
 <th>ASP .NET - Advanced</th>
 </tr>
 <tr>
 <th>Lang Jan</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Programming</th>
 <th>(X) HTML - Basic</th>
 </tr>
 <tr>
 <th>Lang Jan</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Programming</th>
 <th>jQuery - Basic</th>
 </tr>
 <tr>
 <th>Lang Jan</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Programming</th>
 <th>XML - Expert</th>
 </tr>
 <tr>
 <th>Lang Jan</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Programming</th>
 <th>JSON - Intermediate</th>
 </tr>
 <tr>
 <th>Lang Jan</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Programming</th>
 <th>Groovy - Expert</th>
 </tr>
 <tr>
 <th>Lang Jan</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Programming</th>
 <th>SQL - Advanced</th>
 </tr>
 <tr>
 <th>Lang Jan</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Programming</th>
 <th>T-SQL (MSSQL) - Advanced</th>
 </tr>
 <tr>
 <th>Lang Jan</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Programming</th>
 <th>PL/SQL (Oracle) - Intermediate</th>
 </tr>
 <tr>
 <th>Lang Jan</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Virtualization</th>
 <th>Hyper V - Basic</th>
 </tr>
 <tr>
 <th>Lang Jan</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Virtualization</th>
 <th>VMWare - Basic</th>
 </tr>
 <tr>
 <th>Lang Jan</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Security</th>
 <th>ISO 27001 - Basic</th>
 </tr>
 <tr>
 <th>Lang Jan</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Security</th>
 <th>Antivirus - Intermediate</th>
 </tr>
 <tr>
 <th>Lang Jan</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Security</th>
 <th>Firewall - Intermediate</th>
 </tr>
 <tr>
 <th>Lang Jan</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Security</th>
 <th>SSL / TLS - Intermediate</th>
 </tr>
 <tr>
 <th>Lang Jan</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Security</th>
 <th>SFTP - Intermediate</th>
 </tr>
 <tr>
 <th>Lang Jan</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Technical Related Competencies</th>
 <th>Programming/Application Development - Expert</th>
 </tr>
 <tr>
 <th>Lang Jan</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Technical Related Competencies</th>
 <th>Technical support and troubleshooting - Expert</th>
 </tr>
 <tr>
 <th>Lang Jan</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Technical Related Competencies</th>
 <th>Web Development - Intermediate</th>
 </tr>
 <tr>
 <th>Lang Jan</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Technical Related Competencies</th>
 <th>Big Data - Basic</th>
 </tr>
 <tr>
 <th>Lang Jan</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Technical Related Competencies</th>
 <th>Cloud/SaaS - Basic</th>
 </tr>
 <tr>
 <th>Lang Jan</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Technical Related Competencies</th>
 <th>Network Management - Basic</th>
 </tr>
 <tr>
 <th>Lang Jan</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Outputs</th>
 <th>PDF</th>
 </tr>
 <tr>
 <th>Lang Jan</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Outputs</th>
 <th>PCL</th>
 </tr>
 <tr>
 <th>Lang Jan</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Outputs</th>
 <th>AFP</th>
 </tr>
 <tr>
 <th>Lang Jan</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Outputs</th>
 <th>HTML</th>
 </tr>
 <tr>
 <th>Lang Jan</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Outputs</th>
 <th>Docx</th>
 </tr>
 <tr>
 <th>Lang Jan</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Outputs</th>
 <th>RTF</th>
 </tr>
 <tr>
 <th>Lang Jan</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Outputs</th>
 <th>TNO</th>
 </tr>
 <tr>
 <th>Lang Jan</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Architecture</th>
 <th>Data Architecture - Intermediate</th>
 </tr>
 <tr>
 <th>Lang Jan</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Architecture</th>
 <th>Application Architecture - Intermediate</th>
 </tr>
 <tr>
 <th>Lang Jan</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Architecture</th>
 <th>Technology architecture - Intermediate</th>
 </tr>
 <tr>
 <th>Lang Jan</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Architecture</th>
 <th>Use Case Modeling - Intermediate</th>
 </tr>
 <tr>
 <th>Lang Jan</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Architecture</th>
 <th>Process Modeling - Intermediate</th>
 </tr>
 <tr>
 <th>Lang Jan</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Domain Knowledge</th>
 <th>PSP/BPO - Advanced</th>
 </tr>
 <tr>
 <th>Lang Jan</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Domain Knowledge</th>
 <th>Insurance - Expert</th>
 </tr>
 <tr>
 <th>Lang Jan</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Domain Knowledge</th>
 <th>Telco - Intermediate</th>
 </tr>
 <tr>
 <th>Lang Jan</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Domain Knowledge</th>
 <th>Bank - Expert</th>
 </tr>
 <tr>
 <th>Lang Jan</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Project Management</th>
 <th>Project Management - Basic</th>
 </tr>
 <tr>
 <th>Lang Jan</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Project Management</th>
 <th>Requirements Engineering - Basic</th>
 </tr>
 <tr>
 <th>Lang Jan</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Language</th>
 <th>English - Intermediate</th>
 </tr>
 <tr>
 <th>Lang Jan</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Language</th>
 <th>Czech - Expert</th>
 </tr>
 <tr>
 <th>Markovič Jiří</th>
 <th>Czech Republic</th>
 <th>Professional Services Lead</th>
+<th>Inspire Products Competencies</th>
 <th>Inspire Designer - Advanced</th>
 </tr>
 <tr>
 <th>Markovič Jiří</th>
 <th>Czech Republic</th>
 <th>Professional Services Lead</th>
+<th>Inspire Products Competencies</th>
 <th>Inspire Automation - Advanced</th>
 </tr>
 <tr>
 <th>Markovič Jiří</th>
 <th>Czech Republic</th>
 <th>Professional Services Lead</th>
+<th>Inspire Products Competencies</th>
 <th>Inspire Content Manager - Intermediate</th>
 </tr>
 <tr>
 <th>Markovič Jiří</th>
 <th>Czech Republic</th>
 <th>Professional Services Lead</th>
+<th>Inspire Products Competencies</th>
 <th>Inspire Interactive - Intermediate</th>
 </tr>
 <tr>
 <th>Markovič Jiří</th>
 <th>Czech Republic</th>
 <th>Professional Services Lead</th>
+<th>Inspire Products Competencies</th>
 <th>Inspire Interactive Classic - Basic</th>
 </tr>
 <tr>
 <th>Markovič Jiří</th>
 <th>Czech Republic</th>
 <th>Professional Services Lead</th>
+<th>Inspire Products Competencies</th>
 <th>Inspire Dynamic Communication - Basic</th>
 </tr>
 <tr>
 <th>Markovič Jiří</th>
 <th>Czech Republic</th>
 <th>Professional Services Lead</th>
+<th>Inspire Products Competencies</th>
 <th>Inspire Connect Java - Basic</th>
 </tr>
 <tr>
 <th>Markovič Jiří</th>
 <th>Czech Republic</th>
 <th>Professional Services Lead</th>
+<th>Inspire Products Competencies</th>
 <th>Inspire Connect .NET - Intermediate</th>
 </tr>
 <tr>
 <th>Markovič Jiří</th>
 <th>Czech Republic</th>
 <th>Professional Services Lead</th>
+<th>Inspire Products Competencies</th>
 <th>Inspire Approval - Advanced</th>
 </tr>
 <tr>
 <th>Markovič Jiří</th>
 <th>Czech Republic</th>
 <th>Professional Services Lead</th>
+<th>Inspire Products Competencies</th>
 <th>Inspire Messenger - Basic</th>
 </tr>
 <tr>
 <th>Markovič Jiří</th>
 <th>Czech Republic</th>
 <th>Professional Services Lead</th>
+<th>Inspire Products Competencies</th>
 <th>Inspire Storefront - Basic</th>
 </tr>
 <tr>
 <th>Markovič Jiří</th>
 <th>Czech Republic</th>
 <th>Professional Services Lead</th>
+<th>Inspire Products Competencies</th>
 <th>Inspire Tracker - Basic</th>
 </tr>
 <tr>
 <th>Markovič Jiří</th>
 <th>Czech Republic</th>
 <th>Professional Services Lead</th>
+<th>Inspire Products Competencies</th>
 <th>Inspire E-mail Gateway - Intermediate</th>
 </tr>
 <tr>
 <th>Markovič Jiří</th>
 <th>Czech Republic</th>
 <th>Professional Services Lead</th>
+<th>Inspire Products Competencies</th>
 <th>Inspire Compare - Basic</th>
 </tr>
 <tr>
 <th>Markovič Jiří</th>
 <th>Czech Republic</th>
 <th>Professional Services Lead</th>
+<th>Inspire Products Competencies</th>
 <th>GMC License Manager - Advanced</th>
 </tr>
 <tr>
 <th>Markovič Jiří</th>
 <th>Czech Republic</th>
 <th>Professional Services Lead</th>
+<th>Operating Systems</th>
 <th>Windows - Advanced</th>
 </tr>
 <tr>
 <th>Markovič Jiří</th>
 <th>Czech Republic</th>
 <th>Professional Services Lead</th>
+<th>Operating Systems</th>
 <th>Linux - Basic</th>
 </tr>
 <tr>
 <th>Markovič Jiří</th>
 <th>Czech Republic</th>
 <th>Professional Services Lead</th>
+<th>Web Servers</th>
 <th>IIS - Basic</th>
 </tr>
 <tr>
 <th>Markovič Jiří</th>
 <th>Czech Republic</th>
 <th>Professional Services Lead</th>
+<th>Web Servers</th>
 <th>Apache HTTP Server - Basic</th>
 </tr>
 <tr>
 <th>Markovič Jiří</th>
 <th>Czech Republic</th>
 <th>Professional Services Lead</th>
+<th>Web Servers</th>
 <th>Apache Tomcat - Basic</th>
 </tr>
 <tr>
 <th>Markovič Jiří</th>
 <th>Czech Republic</th>
 <th>Professional Services Lead</th>
+<th>Web Servers</th>
 <th>WebSphere - Basic</th>
 </tr>
 <tr>
 <th>Markovič Jiří</th>
 <th>Czech Republic</th>
 <th>Professional Services Lead</th>
+<th>ESB</th>
 <th>ESB - Basic</th>
 </tr>
 <tr>
 <th>Markovič Jiří</th>
 <th>Czech Republic</th>
 <th>Professional Services Lead</th>
+<th>ESB</th>
 <th>iFrame - Basic</th>
 </tr>
 <tr>
 <th>Markovič Jiří</th>
 <th>Czech Republic</th>
 <th>Professional Services Lead</th>
+<th>ESB</th>
 <th>JMS Queue - Basic</th>
 </tr>
 <tr>
 <th>Markovič Jiří</th>
 <th>Czech Republic</th>
 <th>Professional Services Lead</th>
+<th>ESB</th>
 <th>IBM M-Queue - Basic</th>
 </tr>
 <tr>
 <th>Markovič Jiří</th>
 <th>Czech Republic</th>
 <th>Professional Services Lead</th>
+<th>ESB</th>
 <th>F5 Load Balancer - Basic</th>
 </tr>
 <tr>
 <th>Markovič Jiří</th>
 <th>Czech Republic</th>
 <th>Professional Services Lead</th>
+<th>ESB</th>
 <th>Cisco Load Balancer - Basic</th>
 </tr>
 <tr>
 <th>Markovič Jiří</th>
 <th>Czech Republic</th>
 <th>Professional Services Lead</th>
+<th>Database</th>
 <th>MSSQL - Intermediate</th>
 </tr>
 <tr>
 <th>Markovič Jiří</th>
 <th>Czech Republic</th>
 <th>Professional Services Lead</th>
+<th>Database</th>
 <th>MySQL - Basic</th>
 </tr>
 <tr>
 <th>Markovič Jiří</th>
 <th>Czech Republic</th>
 <th>Professional Services Lead</th>
+<th>Database</th>
 <th>MS Access - Basic</th>
 </tr>
 <tr>
 <th>Markovič Jiří</th>
 <th>Czech Republic</th>
 <th>Professional Services Lead</th>
+<th>Programming</th>
 <th>Python - Intermediate</th>
 </tr>
 <tr>
 <th>Markovič Jiří</th>
 <th>Czech Republic</th>
 <th>Professional Services Lead</th>
+<th>Programming</th>
 <th>JAVA  - Basic</th>
 </tr>
 <tr>
 <th>Markovič Jiří</th>
 <th>Czech Republic</th>
 <th>Professional Services Lead</th>
+<th>Programming</th>
 <th>VBA - Basic</th>
 </tr>
 <tr>
 <th>Markovič Jiří</th>
 <th>Czech Republic</th>
 <th>Professional Services Lead</th>
+<th>Programming</th>
 <th>HTML - Intermediate</th>
 </tr>
 <tr>
 <th>Markovič Jiří</th>
 <th>Czech Republic</th>
 <th>Professional Services Lead</th>
+<th>Programming</th>
 <th>CSS - Basic</th>
 </tr>
 <tr>
 <th>Markovič Jiří</th>
 <th>Czech Republic</th>
 <th>Professional Services Lead</th>
+<th>Programming</th>
 <th>ASP .NET - Basic</th>
 </tr>
 <tr>
 <th>Markovič Jiří</th>
 <th>Czech Republic</th>
 <th>Professional Services Lead</th>
+<th>Programming</th>
 <th>(X) HTML - Basic</th>
 </tr>
 <tr>
 <th>Markovič Jiří</th>
 <th>Czech Republic</th>
 <th>Professional Services Lead</th>
+<th>Programming</th>
 <th>XML - Intermediate</th>
 </tr>
 <tr>
 <th>Markovič Jiří</th>
 <th>Czech Republic</th>
 <th>Professional Services Lead</th>
+<th>Programming</th>
 <th>JSON - Basic</th>
 </tr>
 <tr>
 <th>Markovič Jiří</th>
 <th>Czech Republic</th>
 <th>Professional Services Lead</th>
+<th>Programming</th>
 <th>Groovy - Basic</th>
 </tr>
 <tr>
 <th>Markovič Jiří</th>
 <th>Czech Republic</th>
 <th>Professional Services Lead</th>
+<th>Programming</th>
 <th>SQL - Basic</th>
 </tr>
 <tr>
 <th>Markovič Jiří</th>
 <th>Czech Republic</th>
 <th>Professional Services Lead</th>
+<th>Programming</th>
 <th>SAP HANA (SAP SQL) - Basic</th>
 </tr>
 <tr>
 <th>Markovič Jiří</th>
 <th>Czech Republic</th>
 <th>Professional Services Lead</th>
+<th>Programming</th>
 <th>PHP - Basic</th>
 </tr>
 <tr>
 <th>Markovič Jiří</th>
 <th>Czech Republic</th>
 <th>Professional Services Lead</th>
+<th>Virtualization</th>
 <th>Hyper V - Basic</th>
 </tr>
 <tr>
 <th>Markovič Jiří</th>
 <th>Czech Republic</th>
 <th>Professional Services Lead</th>
+<th>Virtualization</th>
 <th>Virtual Box - Intermediate</th>
 </tr>
 <tr>
 <th>Markovič Jiří</th>
 <th>Czech Republic</th>
 <th>Professional Services Lead</th>
+<th>Virtualization</th>
 <th>VMWare - Basic</th>
 </tr>
 <tr>
 <th>Markovič Jiří</th>
 <th>Czech Republic</th>
 <th>Professional Services Lead</th>
+<th>Security</th>
 <th>Antivirus - Intermediate</th>
 </tr>
 <tr>
 <th>Markovič Jiří</th>
 <th>Czech Republic</th>
 <th>Professional Services Lead</th>
+<th>Security</th>
 <th>Firewall - Intermediate</th>
 </tr>
 <tr>
 <th>Markovič Jiří</th>
 <th>Czech Republic</th>
 <th>Professional Services Lead</th>
+<th>Technical Related Competencies</th>
 <th>Programming/Application Development - Basic</th>
 </tr>
 <tr>
 <th>Markovič Jiří</th>
 <th>Czech Republic</th>
 <th>Professional Services Lead</th>
+<th>Technical Related Competencies</th>
 <th>Technical support and troubleshooting - Advanced</th>
 </tr>
 <tr>
 <th>Markovič Jiří</th>
 <th>Czech Republic</th>
 <th>Professional Services Lead</th>
+<th>Technical Related Competencies</th>
 <th>Big Data - Basic</th>
 </tr>
 <tr>
 <th>Markovič Jiří</th>
 <th>Czech Republic</th>
 <th>Professional Services Lead</th>
+<th>Technical Related Competencies</th>
 <th>Cloud/SaaS - Basic</th>
 </tr>
 <tr>
 <th>Markovič Jiří</th>
 <th>Czech Republic</th>
 <th>Professional Services Lead</th>
+<th>Outputs</th>
 <th>PDF</th>
 </tr>
 <tr>
 <th>Markovič Jiří</th>
 <th>Czech Republic</th>
 <th>Professional Services Lead</th>
+<th>Outputs</th>
 <th>IPDS</th>
 </tr>
 <tr>
 <th>Markovič Jiří</th>
 <th>Czech Republic</th>
 <th>Professional Services Lead</th>
+<th>Outputs</th>
 <th>PCL</th>
 </tr>
 <tr>
 <th>Markovič Jiří</th>
 <th>Czech Republic</th>
 <th>Professional Services Lead</th>
+<th>Outputs</th>
 <th>AFP</th>
 </tr>
 <tr>
 <th>Markovič Jiří</th>
 <th>Czech Republic</th>
 <th>Professional Services Lead</th>
+<th>Outputs</th>
 <th>PS</th>
 </tr>
 <tr>
 <th>Markovič Jiří</th>
 <th>Czech Republic</th>
 <th>Professional Services Lead</th>
+<th>Outputs</th>
 <th>HTML</th>
 </tr>
 <tr>
 <th>Markovič Jiří</th>
 <th>Czech Republic</th>
 <th>Professional Services Lead</th>
+<th>Outputs</th>
 <th>Docx</th>
 </tr>
 <tr>
 <th>Markovič Jiří</th>
 <th>Czech Republic</th>
 <th>Professional Services Lead</th>
+<th>Outputs</th>
 <th>RTF</th>
 </tr>
 <tr>
 <th>Markovič Jiří</th>
 <th>Czech Republic</th>
 <th>Professional Services Lead</th>
+<th>Outputs</th>
 <th>TNO</th>
 </tr>
 <tr>
 <th>Markovič Jiří</th>
 <th>Czech Republic</th>
 <th>Professional Services Lead</th>
+<th>Architecture</th>
 <th>TOGAF - Advanced</th>
 </tr>
 <tr>
 <th>Markovič Jiří</th>
 <th>Czech Republic</th>
 <th>Professional Services Lead</th>
+<th>Architecture</th>
 <th>Data Architecture - Intermediate</th>
 </tr>
 <tr>
 <th>Markovič Jiří</th>
 <th>Czech Republic</th>
 <th>Professional Services Lead</th>
+<th>Architecture</th>
 <th>Application Architecture - Intermediate</th>
 </tr>
 <tr>
 <th>Markovič Jiří</th>
 <th>Czech Republic</th>
 <th>Professional Services Lead</th>
+<th>Architecture</th>
 <th>Technology architecture - Intermediate</th>
 </tr>
 <tr>
 <th>Markovič Jiří</th>
 <th>Czech Republic</th>
 <th>Professional Services Lead</th>
+<th>Architecture</th>
 <th>Use Case Modeling - Intermediate</th>
 </tr>
 <tr>
 <th>Markovič Jiří</th>
 <th>Czech Republic</th>
 <th>Professional Services Lead</th>
+<th>Domain Knowledge</th>
 <th>PSP/BPO - Intermediate</th>
 </tr>
 <tr>
 <th>Markovič Jiří</th>
 <th>Czech Republic</th>
 <th>Professional Services Lead</th>
+<th>Domain Knowledge</th>
 <th>Insurance - Advanced</th>
 </tr>
 <tr>
 <th>Markovič Jiří</th>
 <th>Czech Republic</th>
 <th>Professional Services Lead</th>
+<th>Domain Knowledge</th>
 <th>Telco - Advanced</th>
 </tr>
 <tr>
 <th>Markovič Jiří</th>
 <th>Czech Republic</th>
 <th>Professional Services Lead</th>
+<th>Project Management</th>
 <th>Project Management - Intermediate</th>
 </tr>
 <tr>
 <th>Markovič Jiří</th>
 <th>Czech Republic</th>
 <th>Professional Services Lead</th>
+<th>Project Management</th>
 <th>Requirements Engineering - Intermediate</th>
 </tr>
 <tr>
 <th>Markovič Jiří</th>
 <th>Czech Republic</th>
 <th>Professional Services Lead</th>
+<th>Language</th>
 <th>English - Advanced</th>
 </tr>
 <tr>
 <th>Markovič Jiří</th>
 <th>Czech Republic</th>
 <th>Professional Services Lead</th>
+<th>Language</th>
 <th>Slovak - Advanced</th>
 </tr>
 <tr>
 <th>Markovič Jiří</th>
 <th>Czech Republic</th>
 <th>Professional Services Lead</th>
+<th>Language</th>
 <th>Czech - Expert</th>
 </tr>
 <tr>
 <th>Molda Milan</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Inspire Products Competencies</th>
 <th>Inspire Designer - Advanced</th>
 </tr>
 <tr>
 <th>Molda Milan</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Inspire Products Competencies</th>
 <th>Inspire Automation - Advanced</th>
 </tr>
 <tr>
 <th>Molda Milan</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Inspire Products Competencies</th>
 <th>Inspire Content Manager - Intermediate</th>
 </tr>
 <tr>
 <th>Molda Milan</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Inspire Products Competencies</th>
 <th>Inspire Interactive - Expert</th>
 </tr>
 <tr>
 <th>Molda Milan</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Inspire Products Competencies</th>
 <th>Inspire Interactive Classic - Basic</th>
 </tr>
 <tr>
 <th>Molda Milan</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Inspire Products Competencies</th>
 <th>Inspire Dynamic Communication - Basic</th>
 </tr>
 <tr>
 <th>Molda Milan</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Inspire Products Competencies</th>
 <th>Inspire Connect Java - Basic</th>
 </tr>
 <tr>
 <th>Molda Milan</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Inspire Products Competencies</th>
 <th>Inspire Approval - Basic</th>
 </tr>
 <tr>
 <th>Molda Milan</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Inspire Products Competencies</th>
 <th>GMC License Manager - Advanced</th>
 </tr>
 <tr>
 <th>Molda Milan</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Operating Systems</th>
 <th>Windows - Intermediate</th>
 </tr>
 <tr>
 <th>Molda Milan</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Operating Systems</th>
 <th>Mac - Basic</th>
 </tr>
 <tr>
 <th>Molda Milan</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Operating Systems</th>
 <th>Linux - Basic</th>
 </tr>
 <tr>
 <th>Molda Milan</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Operating Systems</th>
 <th>Solaris - Basic</th>
 </tr>
 <tr>
 <th>Molda Milan</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Web Servers</th>
 <th>IIS - Basic</th>
 </tr>
 <tr>
 <th>Molda Milan</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Web Servers</th>
 <th>Apache HTTP Server - Basic</th>
 </tr>
 <tr>
 <th>Molda Milan</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Web Servers</th>
 <th>Apache Tomcat - Basic</th>
 </tr>
 <tr>
 <th>Molda Milan</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Web Servers</th>
 <th>WebSphere - Intermediate</th>
 </tr>
 <tr>
 <th>Molda Milan</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>ESB</th>
 <th>ESB - Basic</th>
 </tr>
 <tr>
 <th>Molda Milan</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>ESB</th>
 <th>SSO - Intermediate</th>
 </tr>
 <tr>
 <th>Molda Milan</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Database</th>
 <th>MSSQL - Intermediate</th>
 </tr>
 <tr>
 <th>Molda Milan</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Database</th>
 <th>MySQL - Intermediate</th>
 </tr>
 <tr>
 <th>Molda Milan</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Database</th>
 <th>MS Access - Basic</th>
 </tr>
 <tr>
 <th>Molda Milan</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Database</th>
 <th>Oracle - Basic</th>
 </tr>
 <tr>
 <th>Molda Milan</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Programming</th>
 <th>C - Basic</th>
 </tr>
 <tr>
 <th>Molda Milan</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Programming</th>
 <th>Python - Basic</th>
 </tr>
 <tr>
 <th>Molda Milan</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Programming</th>
 <th>JAVA  - Advanced</th>
 </tr>
 <tr>
 <th>Molda Milan</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Programming</th>
 <th>JavaScript - Intermediate</th>
 </tr>
 <tr>
 <th>Molda Milan</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Programming</th>
 <th>C++ - Intermediate</th>
 </tr>
 <tr>
 <th>Molda Milan</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Programming</th>
 <th>C# - Basic</th>
 </tr>
 <tr>
 <th>Molda Milan</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Programming</th>
 <th>HTML - Expert</th>
 </tr>
 <tr>
 <th>Molda Milan</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Programming</th>
 <th>CSS - Advanced</th>
 </tr>
 <tr>
 <th>Molda Milan</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Programming</th>
 <th>(X) HTML - Advanced</th>
 </tr>
 <tr>
 <th>Molda Milan</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Programming</th>
 <th>jQuery - Basic</th>
 </tr>
 <tr>
 <th>Molda Milan</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Programming</th>
 <th>XML - Advanced</th>
 </tr>
 <tr>
 <th>Molda Milan</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Programming</th>
 <th>JSON - Basic</th>
 </tr>
 <tr>
 <th>Molda Milan</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Programming</th>
 <th>Groovy - Advanced</th>
 </tr>
 <tr>
 <th>Molda Milan</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Programming</th>
 <th>SQL - Intermediate</th>
 </tr>
 <tr>
 <th>Molda Milan</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Programming</th>
 <th>PHP - Advanced</th>
 </tr>
 <tr>
 <th>Molda Milan</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Virtualization</th>
 <th>Virtual Box - Basic</th>
 </tr>
 <tr>
 <th>Molda Milan</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Virtualization</th>
 <th>VMWare - Basic</th>
 </tr>
 <tr>
 <th>Molda Milan</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Security</th>
 <th>Antivirus - Intermediate</th>
 </tr>
 <tr>
 <th>Molda Milan</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Security</th>
 <th>Firewall - Intermediate</th>
 </tr>
 <tr>
 <th>Molda Milan</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Security</th>
 <th>SFTP - Basic</th>
 </tr>
 <tr>
 <th>Molda Milan</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Technical Related Competencies</th>
 <th>Programming/Application Development - Advanced</th>
 </tr>
 <tr>
 <th>Molda Milan</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Technical Related Competencies</th>
 <th>Technical support and troubleshooting - Advanced</th>
 </tr>
 <tr>
 <th>Molda Milan</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Technical Related Competencies</th>
 <th>Web Development - Advanced</th>
 </tr>
 <tr>
 <th>Molda Milan</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Technical Related Competencies</th>
 <th>Cloud/SaaS - Intermediate</th>
 </tr>
 <tr>
 <th>Molda Milan</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Technical Related Competencies</th>
 <th>Network Management - Intermediate</th>
 </tr>
 <tr>
 <th>Molda Milan</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Outputs</th>
 <th>PDF</th>
 </tr>
 <tr>
 <th>Molda Milan</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Outputs</th>
 <th>PCL</th>
 </tr>
 <tr>
 <th>Molda Milan</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Outputs</th>
 <th>HTML</th>
 </tr>
 <tr>
 <th>Molda Milan</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Outputs</th>
 <th>DC</th>
 </tr>
 <tr>
 <th>Molda Milan</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Outputs</th>
 <th>TNO</th>
 </tr>
 <tr>
 <th>Molda Milan</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Architecture</th>
 <th>Data Architecture - Basic</th>
 </tr>
 <tr>
 <th>Molda Milan</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Architecture</th>
 <th>Application Architecture - Basic</th>
 </tr>
 <tr>
 <th>Molda Milan</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Architecture</th>
 <th>Use Case Modeling - Intermediate</th>
 </tr>
 <tr>
 <th>Molda Milan</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Architecture</th>
 <th>Process Modeling - Intermediate</th>
 </tr>
 <tr>
 <th>Molda Milan</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Domain Knowledge</th>
 <th>Insurance - Advanced</th>
 </tr>
 <tr>
 <th>Molda Milan</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Domain Knowledge</th>
 <th>Telco - Basic</th>
 </tr>
 <tr>
 <th>Molda Milan</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Domain Knowledge</th>
 <th>Bank - Basic</th>
 </tr>
 <tr>
 <th>Molda Milan</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Language</th>
 <th>English - Intermediate</th>
 </tr>
 <tr>
 <th>Molda Milan</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Language</th>
 <th>Slovak - Expert</th>
 </tr>
 <tr>
 <th>Molda Milan</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Language</th>
 <th>Czech - Expert</th>
 </tr>
 <tr>
 <th>Pospíšek Martin</th>
 <th>PSO Nearshore</th>
 <th>Professional Services Consultant</th>
+<th>PSO Skills</th>
 <th>IIS</th>
 </tr>
 <tr>
 <th>Pospíšek Martin</th>
 <th>PSO Nearshore</th>
 <th>Professional Services Consultant</th>
+<th>PSO Skills</th>
 <th>Apache HTTP Server</th>
 </tr>
 <tr>
 <th>Šilhán Michal</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Inspire Products Competencies</th>
 <th>Inspire Designer - Advanced</th>
 </tr>
 <tr>
 <th>Šilhán Michal</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Inspire Products Competencies</th>
 <th>Inspire Automation - Expert</th>
 </tr>
 <tr>
 <th>Šilhán Michal</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Inspire Products Competencies</th>
 <th>Inspire Content Manager - Advanced</th>
 </tr>
 <tr>
 <th>Šilhán Michal</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Inspire Products Competencies</th>
 <th>Inspire Interactive - Advanced</th>
 </tr>
 <tr>
 <th>Šilhán Michal</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Inspire Products Competencies</th>
 <th>Inspire Dynamic Communication - Basic</th>
 </tr>
 <tr>
 <th>Šilhán Michal</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Inspire Products Competencies</th>
 <th>Inspire Approval - Intermediate</th>
 </tr>
 <tr>
 <th>Šilhán Michal</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Inspire Products Competencies</th>
 <th>GMC License Manager - Advanced</th>
 </tr>
 <tr>
 <th>Šilhán Michal</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Operating Systems</th>
 <th>Windows - Advanced</th>
 </tr>
 <tr>
 <th>Šilhán Michal</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Operating Systems</th>
 <th>Linux - Basic</th>
 </tr>
 <tr>
 <th>Šilhán Michal</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Web Servers</th>
 <th>IIS - Basic</th>
 </tr>
 <tr>
 <th>Šilhán Michal</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Web Servers</th>
 <th>Apache Tomcat - Intermediate</th>
 </tr>
 <tr>
 <th>Šilhán Michal</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>ESB</th>
 <th>SSO - Intermediate</th>
 </tr>
 <tr>
 <th>Šilhán Michal</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Database</th>
 <th>MSSQL - Intermediate</th>
 </tr>
 <tr>
 <th>Šilhán Michal</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Database</th>
 <th>MySQL - Basic</th>
 </tr>
 <tr>
 <th>Šilhán Michal</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Database</th>
 <th>MS Access - Basic</th>
 </tr>
 <tr>
 <th>Šilhán Michal</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Database</th>
 <th>Oracle - Basic</th>
 </tr>
 <tr>
 <th>Šilhán Michal</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Programming</th>
 <th>C - Intermediate</th>
 </tr>
 <tr>
 <th>Šilhán Michal</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Programming</th>
 <th>JAVA  - Intermediate</th>
 </tr>
 <tr>
 <th>Šilhán Michal</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Programming</th>
 <th>C++ - Intermediate</th>
 </tr>
 <tr>
 <th>Šilhán Michal</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Programming</th>
 <th>C# - Intermediate</th>
 </tr>
 <tr>
 <th>Šilhán Michal</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Programming</th>
 <th>HTML - Basic</th>
 </tr>
 <tr>
 <th>Šilhán Michal</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Programming</th>
 <th>CSS - Basic</th>
 </tr>
 <tr>
 <th>Šilhán Michal</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Programming</th>
 <th>(X) HTML - Basic</th>
 </tr>
 <tr>
 <th>Šilhán Michal</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Programming</th>
 <th>XML - Intermediate</th>
 </tr>
 <tr>
 <th>Šilhán Michal</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Programming</th>
 <th>JSON - Basic</th>
 </tr>
 <tr>
 <th>Šilhán Michal</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Programming</th>
 <th>Groovy - Advanced</th>
 </tr>
 <tr>
 <th>Šilhán Michal</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Programming</th>
 <th>SQL - Intermediate</th>
 </tr>
 <tr>
 <th>Šilhán Michal</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Programming</th>
 <th>PHP - Intermediate</th>
 </tr>
 <tr>
 <th>Šilhán Michal</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Virtualization</th>
 <th>Virtual Box - Basic</th>
 </tr>
 <tr>
 <th>Šilhán Michal</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Virtualization</th>
 <th>VMWare - Basic</th>
 </tr>
 <tr>
 <th>Šilhán Michal</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Security</th>
 <th>Antivirus - Intermediate</th>
 </tr>
 <tr>
 <th>Šilhán Michal</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Security</th>
 <th>Firewall - Intermediate</th>
 </tr>
 <tr>
 <th>Šilhán Michal</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Security</th>
 <th>SSL / TLS - Basic</th>
 </tr>
 <tr>
 <th>Šilhán Michal</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Security</th>
 <th>SFTP - Basic</th>
 </tr>
 <tr>
 <th>Šilhán Michal</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Technical Related Competencies</th>
 <th>Programming/Application Development - Advanced</th>
 </tr>
 <tr>
 <th>Šilhán Michal</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Technical Related Competencies</th>
 <th>Technical support and troubleshooting - Basic</th>
 </tr>
 <tr>
 <th>Šilhán Michal</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Technical Related Competencies</th>
 <th>Web Development - Basic</th>
 </tr>
 <tr>
 <th>Šilhán Michal</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Technical Related Competencies</th>
 <th>Big Data - Basic</th>
 </tr>
 <tr>
 <th>Šilhán Michal</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Technical Related Competencies</th>
 <th>Cloud/SaaS - Basic</th>
 </tr>
 <tr>
 <th>Šilhán Michal</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Technical Related Competencies</th>
 <th>Network Management - Basic</th>
 </tr>
 <tr>
 <th>Šilhán Michal</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Outputs</th>
 <th>PDF</th>
 </tr>
 <tr>
 <th>Šilhán Michal</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Outputs</th>
 <th>PCL</th>
 </tr>
 <tr>
 <th>Šilhán Michal</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Outputs</th>
 <th>AFP</th>
 </tr>
 <tr>
 <th>Šilhán Michal</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Outputs</th>
 <th>PS</th>
 </tr>
 <tr>
 <th>Šilhán Michal</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Outputs</th>
 <th>HTML</th>
 </tr>
 <tr>
 <th>Šilhán Michal</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Outputs</th>
 <th>DC</th>
 </tr>
 <tr>
 <th>Šilhán Michal</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Outputs</th>
 <th>Docx</th>
 </tr>
 <tr>
 <th>Šilhán Michal</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Outputs</th>
 <th>RTF</th>
 </tr>
 <tr>
 <th>Šilhán Michal</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Outputs</th>
 <th>TNO</th>
 </tr>
 <tr>
 <th>Šilhán Michal</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Language</th>
 <th>English - Intermediate</th>
 </tr>
 <tr>
 <th>Šilhán Michal</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Language</th>
 <th>Slovak - Expert</th>
 </tr>
 <tr>
 <th>Šilhán Michal</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Language</th>
 <th>Czech - Expert</th>
 </tr>
 <tr>
 <th>Pessr Ondřej</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Inspire Products Competencies</th>
 <th>Inspire Designer - Expert</th>
 </tr>
 <tr>
 <th>Pessr Ondřej</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Inspire Products Competencies</th>
 <th>Inspire Automation - Advanced</th>
 </tr>
 <tr>
 <th>Pessr Ondřej</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Inspire Products Competencies</th>
 <th>Inspire Content Manager - Advanced</th>
 </tr>
 <tr>
 <th>Pessr Ondřej</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Inspire Products Competencies</th>
 <th>Inspire Interactive - Advanced</th>
 </tr>
 <tr>
 <th>Pessr Ondřej</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Inspire Products Competencies</th>
 <th>Inspire Interactive Classic - Advanced</th>
 </tr>
 <tr>
 <th>Pessr Ondřej</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Inspire Products Competencies</th>
 <th>Inspire Dynamic Communication - Intermediate</th>
 </tr>
 <tr>
 <th>Pessr Ondřej</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Inspire Products Competencies</th>
 <th>Inspire Connect Java - Advanced</th>
 </tr>
 <tr>
 <th>Pessr Ondřej</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Inspire Products Competencies</th>
 <th>Inspire Connect .NET - Advanced</th>
 </tr>
 <tr>
 <th>Pessr Ondřej</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Inspire Products Competencies</th>
 <th>Inspire Approval - Expert</th>
 </tr>
 <tr>
 <th>Pessr Ondřej</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Inspire Products Competencies</th>
 <th>Inspire Messenger - Intermediate</th>
 </tr>
 <tr>
 <th>Pessr Ondřej</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Inspire Products Competencies</th>
 <th>Inspire Scaler - Basic</th>
 </tr>
 <tr>
 <th>Pessr Ondřej</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Inspire Products Competencies</th>
 <th>Inspire Hybridmail - Intermediate</th>
 </tr>
 <tr>
 <th>Pessr Ondřej</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Inspire Products Competencies</th>
 <th>Inspire Storefront - Advanced</th>
 </tr>
 <tr>
 <th>Pessr Ondřej</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Inspire Products Competencies</th>
 <th>Inspire Consolidate - Basic</th>
 </tr>
 <tr>
 <th>Pessr Ondřej</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Inspire Products Competencies</th>
 <th>Inspire Tracker - Advanced</th>
 </tr>
 <tr>
 <th>Pessr Ondřej</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Inspire Products Competencies</th>
 <th>Inspire E-mail Gateway - Advanced</th>
 </tr>
 <tr>
 <th>Pessr Ondřej</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Inspire Products Competencies</th>
 <th>Inspire Compare - Intermediate</th>
 </tr>
 <tr>
 <th>Pessr Ondřej</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Inspire Products Competencies</th>
 <th>GMC License Manager - Advanced</th>
 </tr>
 <tr>
 <th>Pessr Ondřej</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Operating Systems</th>
 <th>Windows - Advanced</th>
 </tr>
 <tr>
 <th>Pessr Ondřej</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Operating Systems</th>
 <th>Mac - Basic</th>
 </tr>
 <tr>
 <th>Pessr Ondřej</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Operating Systems</th>
 <th>Linux - Intermediate</th>
 </tr>
 <tr>
 <th>Pessr Ondřej</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Operating Systems</th>
 <th>Solaris - Basic</th>
 </tr>
 <tr>
 <th>Pessr Ondřej</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Operating Systems</th>
 <th>AIX - Basic</th>
 </tr>
 <tr>
 <th>Pessr Ondřej</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Web Servers</th>
 <th>IIS - Intermediate</th>
 </tr>
 <tr>
 <th>Pessr Ondřej</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Web Servers</th>
 <th>Apache HTTP Server - Basic</th>
 </tr>
 <tr>
 <th>Pessr Ondřej</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Web Servers</th>
 <th>Apache Tomcat - Intermediate</th>
 </tr>
 <tr>
 <th>Pessr Ondřej</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>ESB</th>
 <th>ESB - Basic</th>
 </tr>
 <tr>
 <th>Pessr Ondřej</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>ESB</th>
 <th>iFrame - Basic</th>
 </tr>
 <tr>
 <th>Pessr Ondřej</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>ESB</th>
 <th>SSO - Advanced</th>
 </tr>
 <tr>
 <th>Pessr Ondřej</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>ESB</th>
 <th>JMS Queue - Basic</th>
 </tr>
 <tr>
 <th>Pessr Ondřej</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>ESB</th>
 <th>IBM M-Queue - Basic</th>
 </tr>
 <tr>
 <th>Pessr Ondřej</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>ESB</th>
 <th>F5 Load Balancer - Intermediate</th>
 </tr>
 <tr>
 <th>Pessr Ondřej</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>ESB</th>
 <th>Cisco Load Balancer - Intermediate</th>
 </tr>
 <tr>
 <th>Pessr Ondřej</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Database</th>
 <th>MSSQL - Intermediate</th>
 </tr>
 <tr>
 <th>Pessr Ondřej</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Database</th>
 <th>MySQL - Basic</th>
 </tr>
 <tr>
 <th>Pessr Ondřej</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Database</th>
 <th>MS Access - Basic</th>
 </tr>
 <tr>
 <th>Pessr Ondřej</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Database</th>
 <th>Oracle - Intermediate</th>
 </tr>
 <tr>
 <th>Pessr Ondřej</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Programming</th>
 <th>Ruby - Basic</th>
 </tr>
 <tr>
 <th>Pessr Ondřej</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Programming</th>
 <th>C - Advanced</th>
 </tr>
 <tr>
 <th>Pessr Ondřej</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Programming</th>
 <th>Python - Intermediate</th>
 </tr>
 <tr>
 <th>Pessr Ondřej</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Programming</th>
 <th>JAVA  - Intermediate</th>
 </tr>
 <tr>
 <th>Pessr Ondřej</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Programming</th>
 <th>JavaScript - Basic</th>
 </tr>
 <tr>
 <th>Pessr Ondřej</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Programming</th>
 <th>C++ - Intermediate</th>
 </tr>
 <tr>
 <th>Pessr Ondřej</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Programming</th>
 <th>C# - Basic</th>
 </tr>
 <tr>
 <th>Pessr Ondřej</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Programming</th>
 <th>VBA - Basic</th>
 </tr>
 <tr>
 <th>Pessr Ondřej</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Programming</th>
 <th>PERL - Basic</th>
 </tr>
 <tr>
 <th>Pessr Ondřej</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Programming</th>
 <th>HTML - Intermediate</th>
 </tr>
 <tr>
 <th>Pessr Ondřej</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Programming</th>
 <th>CSS - Basic</th>
 </tr>
 <tr>
 <th>Pessr Ondřej</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Programming</th>
 <th>(X) HTML - Basic</th>
 </tr>
 <tr>
 <th>Pessr Ondřej</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Programming</th>
 <th>XML - Advanced</th>
 </tr>
 <tr>
 <th>Pessr Ondřej</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Programming</th>
 <th>JSON - Basic</th>
 </tr>
 <tr>
 <th>Pessr Ondřej</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Programming</th>
 <th>Groovy - Intermediate</th>
 </tr>
 <tr>
 <th>Pessr Ondřej</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Programming</th>
 <th>SQL - Intermediate</th>
 </tr>
 <tr>
 <th>Pessr Ondřej</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Programming</th>
 <th>T-SQL (MSSQL) - Intermediate</th>
 </tr>
 <tr>
 <th>Pessr Ondřej</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Programming</th>
 <th>PL/SQL (Oracle) - Intermediate</th>
 </tr>
 <tr>
 <th>Pessr Ondřej</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Programming</th>
 <th>SQL PL (DB2) - Basic</th>
 </tr>
 <tr>
 <th>Pessr Ondřej</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Programming</th>
 <th>SAP HANA (SAP SQL) - Basic</th>
 </tr>
 <tr>
 <th>Pessr Ondřej</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Programming</th>
 <th>PHP - Intermediate</th>
 </tr>
 <tr>
 <th>Pessr Ondřej</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Virtualization</th>
 <th>Azure - Basic</th>
 </tr>
 <tr>
 <th>Pessr Ondřej</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Virtualization</th>
 <th>Hyper V - Intermediate</th>
 </tr>
 <tr>
 <th>Pessr Ondřej</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Virtualization</th>
 <th>Virtual Box - Intermediate</th>
 </tr>
 <tr>
 <th>Pessr Ondřej</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Virtualization</th>
 <th>VMWare - Intermediate</th>
 </tr>
 <tr>
 <th>Pessr Ondřej</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Security</th>
 <th>Antivirus - Advanced</th>
 </tr>
 <tr>
 <th>Pessr Ondřej</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Security</th>
 <th>Firewall - Advanced</th>
 </tr>
 <tr>
 <th>Pessr Ondřej</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Security</th>
 <th>SSL / TLS - Advanced</th>
 </tr>
 <tr>
 <th>Pessr Ondřej</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Security</th>
 <th>SFTP - Intermediate</th>
 </tr>
 <tr>
 <th>Pessr Ondřej</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Technical Related Competencies</th>
 <th>Programming/Application Development - Expert</th>
 </tr>
 <tr>
 <th>Pessr Ondřej</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Technical Related Competencies</th>
 <th>Technical support and troubleshooting - Advanced</th>
 </tr>
 <tr>
 <th>Pessr Ondřej</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Technical Related Competencies</th>
 <th>Web Development - Intermediate</th>
 </tr>
 <tr>
 <th>Pessr Ondřej</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Technical Related Competencies</th>
 <th>Big Data - Intermediate</th>
 </tr>
 <tr>
 <th>Pessr Ondřej</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Technical Related Competencies</th>
 <th>Cloud/SaaS - Intermediate</th>
 </tr>
 <tr>
 <th>Pessr Ondřej</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Technical Related Competencies</th>
 <th>Network Management - Intermediate</th>
 </tr>
 <tr>
 <th>Pessr Ondřej</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Outputs</th>
 <th>PDF</th>
 </tr>
 <tr>
 <th>Pessr Ondřej</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Outputs</th>
 <th>IPDS</th>
 </tr>
 <tr>
 <th>Pessr Ondřej</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Outputs</th>
 <th>PCL</th>
 </tr>
 <tr>
 <th>Pessr Ondřej</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Outputs</th>
 <th>AFP</th>
 </tr>
 <tr>
 <th>Pessr Ondřej</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Outputs</th>
 <th>PS</th>
 </tr>
 <tr>
 <th>Pessr Ondřej</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Outputs</th>
 <th>HTML</th>
 </tr>
 <tr>
 <th>Pessr Ondřej</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Outputs</th>
 <th>DC</th>
 </tr>
 <tr>
 <th>Pessr Ondřej</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Outputs</th>
 <th>Docx</th>
 </tr>
 <tr>
 <th>Pessr Ondřej</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Outputs</th>
 <th>RTF</th>
 </tr>
 <tr>
 <th>Pessr Ondřej</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Outputs</th>
 <th>TNO</th>
 </tr>
 <tr>
 <th>Pessr Ondřej</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Architecture</th>
 <th>TOGAF - Advanced</th>
 </tr>
 <tr>
 <th>Pessr Ondřej</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Architecture</th>
 <th>Data Architecture - Advanced</th>
 </tr>
 <tr>
 <th>Pessr Ondřej</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Architecture</th>
 <th>Application Architecture - Advanced</th>
 </tr>
 <tr>
 <th>Pessr Ondřej</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Architecture</th>
 <th>Technology architecture - Advanced</th>
 </tr>
 <tr>
 <th>Pessr Ondřej</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Architecture</th>
 <th>Use Case Modeling - Advanced</th>
 </tr>
 <tr>
 <th>Pessr Ondřej</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Architecture</th>
 <th>Process Modeling - Advanced</th>
 </tr>
 <tr>
 <th>Pessr Ondřej</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Domain Knowledge</th>
 <th>PSP/BPO - Expert</th>
 </tr>
 <tr>
 <th>Pessr Ondřej</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Domain Knowledge</th>
 <th>Insurance - Advanced</th>
 </tr>
 <tr>
 <th>Pessr Ondřej</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Domain Knowledge</th>
 <th>Telco - Advanced</th>
 </tr>
 <tr>
 <th>Pessr Ondřej</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Domain Knowledge</th>
 <th>Bank - Advanced</th>
 </tr>
 <tr>
 <th>Pessr Ondřej</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Project Management</th>
 <th>Project Management - Expert</th>
 </tr>
 <tr>
 <th>Pessr Ondřej</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Project Management</th>
 <th>Requirements Engineering - Advanced</th>
 </tr>
 <tr>
 <th>Pessr Ondřej</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Language</th>
 <th>English - Advanced</th>
 </tr>
 <tr>
 <th>Pessr Ondřej</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Language</th>
 <th>Slovak - Advanced</th>
 </tr>
 <tr>
 <th>Pessr Ondřej</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Language</th>
 <th>Czech - Expert</th>
 </tr>
 <tr>
 <th>Malý Petr</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Inspire Products Competencies</th>
 <th>Inspire Designer - Expert</th>
 </tr>
 <tr>
 <th>Malý Petr</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Inspire Products Competencies</th>
 <th>Inspire Automation - Expert</th>
 </tr>
 <tr>
 <th>Malý Petr</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Inspire Products Competencies</th>
 <th>Inspire Content Manager - Advanced</th>
 </tr>
 <tr>
 <th>Malý Petr</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Inspire Products Competencies</th>
 <th>Inspire Interactive - Basic</th>
 </tr>
 <tr>
 <th>Malý Petr</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Inspire Products Competencies</th>
 <th>Inspire Dynamic Communication - Basic</th>
 </tr>
 <tr>
 <th>Malý Petr</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Inspire Products Competencies</th>
 <th>Inspire E-mail Gateway - Intermediate</th>
 </tr>
 <tr>
 <th>Malý Petr</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Inspire Products Competencies</th>
 <th>GMC License Manager - Intermediate</th>
 </tr>
 <tr>
 <th>Malý Petr</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Operating Systems</th>
 <th>Windows - Advanced</th>
 </tr>
 <tr>
 <th>Malý Petr</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Web Servers</th>
 <th>IIS - Intermediate</th>
 </tr>
 <tr>
 <th>Malý Petr</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Web Servers</th>
 <th>Apache Tomcat - Basic</th>
 </tr>
 <tr>
 <th>Malý Petr</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Database</th>
 <th>MSSQL - Intermediate</th>
 </tr>
 <tr>
 <th>Malý Petr</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Database</th>
 <th>MySQL - Basic</th>
 </tr>
 <tr>
 <th>Malý Petr</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Programming</th>
 <th>C - Intermediate</th>
 </tr>
 <tr>
 <th>Malý Petr</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Programming</th>
 <th>JavaScript - Intermediate</th>
 </tr>
 <tr>
 <th>Malý Petr</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Programming</th>
 <th>VBA - Advanced</th>
 </tr>
 <tr>
 <th>Malý Petr</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Programming</th>
 <th>HTML - Intermediate</th>
 </tr>
 <tr>
 <th>Malý Petr</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Programming</th>
 <th>ASP .NET - Advanced</th>
 </tr>
 <tr>
 <th>Malý Petr</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Programming</th>
 <th>XML - Advanced</th>
 </tr>
 <tr>
 <th>Malý Petr</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Programming</th>
 <th>JSON - Basic</th>
 </tr>
 <tr>
 <th>Malý Petr</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Programming</th>
 <th>Groovy - Intermediate</th>
 </tr>
 <tr>
 <th>Malý Petr</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Programming</th>
 <th>SQL - Basic</th>
 </tr>
 <tr>
 <th>Malý Petr</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Programming</th>
 <th>T-SQL (MSSQL) - Basic</th>
 </tr>
 <tr>
 <th>Malý Petr</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Virtualization</th>
 <th>VMWare - Basic</th>
 </tr>
 <tr>
 <th>Malý Petr</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Security</th>
 <th>Firewall - Basic</th>
 </tr>
 <tr>
 <th>Malý Petr</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Technical Related Competencies</th>
 <th>Programming/Application Development - Advanced</th>
 </tr>
 <tr>
 <th>Malý Petr</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Technical Related Competencies</th>
 <th>Technical support and troubleshooting - Advanced</th>
 </tr>
 <tr>
 <th>Malý Petr</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Technical Related Competencies</th>
 <th>Web Development - Intermediate</th>
 </tr>
 <tr>
 <th>Malý Petr</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Outputs</th>
 <th>PDF</th>
 </tr>
 <tr>
 <th>Malý Petr</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Outputs</th>
 <th>IPDS</th>
 </tr>
 <tr>
 <th>Malý Petr</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Outputs</th>
 <th>PCL</th>
 </tr>
 <tr>
 <th>Malý Petr</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Outputs</th>
 <th>AFP</th>
 </tr>
 <tr>
 <th>Malý Petr</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Outputs</th>
 <th>PS</th>
 </tr>
 <tr>
 <th>Malý Petr</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Outputs</th>
 <th>HTML</th>
 </tr>
 <tr>
 <th>Malý Petr</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Outputs</th>
 <th>DC</th>
 </tr>
 <tr>
 <th>Malý Petr</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Outputs</th>
 <th>Docx</th>
 </tr>
 <tr>
 <th>Malý Petr</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Outputs</th>
 <th>RTF</th>
 </tr>
 <tr>
 <th>Malý Petr</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Outputs</th>
 <th>TNO</th>
 </tr>
 <tr>
 <th>Malý Petr</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Domain Knowledge</th>
 <th>Insurance - Intermediate</th>
 </tr>
 <tr>
 <th>Malý Petr</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Domain Knowledge</th>
 <th>Telco - Intermediate</th>
 </tr>
 <tr>
 <th>Malý Petr</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Domain Knowledge</th>
 <th>Bank - Intermediate</th>
 </tr>
 <tr>
 <th>Malý Petr</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Language</th>
 <th>English - Intermediate</th>
 </tr>
 <tr>
 <th>Malý Petr</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Language</th>
 <th>Slovak - Advanced</th>
 </tr>
 <tr>
 <th>Malý Petr</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Language</th>
 <th>Czech - Expert</th>
 </tr>
 <tr>
 <th>Vadlejch Petr</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Inspire Products Competencies</th>
 <th>Inspire Designer - Expert</th>
 </tr>
 <tr>
 <th>Vadlejch Petr</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Inspire Products Competencies</th>
 <th>Inspire Automation - Expert</th>
 </tr>
 <tr>
 <th>Vadlejch Petr</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Inspire Products Competencies</th>
 <th>Inspire Content Manager - Intermediate</th>
 </tr>
 <tr>
 <th>Vadlejch Petr</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Inspire Products Competencies</th>
 <th>Inspire Interactive - Basic</th>
 </tr>
 <tr>
 <th>Vadlejch Petr</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Inspire Products Competencies</th>
 <th>Inspire Interactive Classic - Advanced</th>
 </tr>
 <tr>
 <th>Vadlejch Petr</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Inspire Products Competencies</th>
 <th>Inspire Dynamic Communication - Advanced</th>
 </tr>
 <tr>
 <th>Vadlejch Petr</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Inspire Products Competencies</th>
 <th>Inspire Tracker - Basic</th>
 </tr>
 <tr>
 <th>Vadlejch Petr</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Inspire Products Competencies</th>
 <th>Inspire E-mail Gateway - Basic</th>
 </tr>
 <tr>
 <th>Vadlejch Petr</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Inspire Products Competencies</th>
 <th>GMC License Manager - Advanced</th>
 </tr>
 <tr>
 <th>Vadlejch Petr</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Operating Systems</th>
 <th>Windows - Advanced</th>
 </tr>
 <tr>
 <th>Vadlejch Petr</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Operating Systems</th>
 <th>Linux - Advanced</th>
 </tr>
 <tr>
 <th>Vadlejch Petr</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Operating Systems</th>
 <th>Solaris - Basic</th>
 </tr>
 <tr>
 <th>Vadlejch Petr</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Web Servers</th>
 <th>IIS - Basic</th>
 </tr>
 <tr>
 <th>Vadlejch Petr</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Web Servers</th>
 <th>Apache HTTP Server - Basic</th>
 </tr>
 <tr>
 <th>Vadlejch Petr</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Web Servers</th>
 <th>Apache Tomcat - Basic</th>
 </tr>
 <tr>
 <th>Vadlejch Petr</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Database</th>
 <th>MSSQL - Basic</th>
 </tr>
 <tr>
 <th>Vadlejch Petr</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Database</th>
 <th>MySQL - Basic</th>
 </tr>
 <tr>
 <th>Vadlejch Petr</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Database</th>
 <th>Oracle - Basic</th>
 </tr>
 <tr>
 <th>Vadlejch Petr</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Programming</th>
 <th>C - Advanced</th>
 </tr>
 <tr>
 <th>Vadlejch Petr</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Programming</th>
 <th>JAVA  - Intermediate</th>
 </tr>
 <tr>
 <th>Vadlejch Petr</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Programming</th>
 <th>JavaScript - Basic</th>
 </tr>
 <tr>
 <th>Vadlejch Petr</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Programming</th>
 <th>C++ - Intermediate</th>
 </tr>
 <tr>
 <th>Vadlejch Petr</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Programming</th>
 <th>C# - Basic</th>
 </tr>
 <tr>
 <th>Vadlejch Petr</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Programming</th>
 <th>VBA - Basic</th>
 </tr>
 <tr>
 <th>Vadlejch Petr</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Programming</th>
 <th>HTML - Advanced</th>
 </tr>
 <tr>
 <th>Vadlejch Petr</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Programming</th>
 <th>CSS - Intermediate</th>
 </tr>
 <tr>
 <th>Vadlejch Petr</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Programming</th>
 <th>(X) HTML - Advanced</th>
 </tr>
 <tr>
 <th>Vadlejch Petr</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Programming</th>
 <th>XML - Advanced</th>
 </tr>
 <tr>
 <th>Vadlejch Petr</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Programming</th>
 <th>JSON - Basic</th>
 </tr>
 <tr>
 <th>Vadlejch Petr</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Programming</th>
 <th>Groovy - Advanced</th>
 </tr>
 <tr>
 <th>Vadlejch Petr</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Programming</th>
 <th>SQL - Basic</th>
 </tr>
 <tr>
 <th>Vadlejch Petr</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Programming</th>
 <th>PHP - Basic</th>
 </tr>
 <tr>
 <th>Vadlejch Petr</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Virtualization</th>
 <th>Virtual Box - Intermediate</th>
 </tr>
 <tr>
 <th>Vadlejch Petr</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Virtualization</th>
 <th>VMWare - Basic</th>
 </tr>
 <tr>
 <th>Vadlejch Petr</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Security</th>
 <th>Antivirus - Basic</th>
 </tr>
 <tr>
 <th>Vadlejch Petr</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Security</th>
 <th>SFTP - Basic</th>
 </tr>
 <tr>
 <th>Vadlejch Petr</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Technical Related Competencies</th>
 <th>Programming/Application Development - Expert</th>
 </tr>
 <tr>
 <th>Vadlejch Petr</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Technical Related Competencies</th>
 <th>Technical support and troubleshooting - Advanced</th>
 </tr>
 <tr>
 <th>Vadlejch Petr</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Technical Related Competencies</th>
 <th>Web Development - Intermediate</th>
 </tr>
 <tr>
 <th>Vadlejch Petr</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Technical Related Competencies</th>
 <th>Network Management - Basic</th>
 </tr>
 <tr>
 <th>Vadlejch Petr</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Outputs</th>
 <th>PDF</th>
 </tr>
 <tr>
 <th>Vadlejch Petr</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Outputs</th>
 <th>PCL</th>
 </tr>
 <tr>
 <th>Vadlejch Petr</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Outputs</th>
 <th>HTML</th>
 </tr>
 <tr>
 <th>Vadlejch Petr</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Outputs</th>
 <th>DC</th>
 </tr>
 <tr>
 <th>Vadlejch Petr</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Outputs</th>
 <th>Docx</th>
 </tr>
 <tr>
 <th>Vadlejch Petr</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Outputs</th>
 <th>TNO</th>
 </tr>
 <tr>
 <th>Vadlejch Petr</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Architecture</th>
 <th>Data Architecture - Intermediate</th>
 </tr>
 <tr>
 <th>Vadlejch Petr</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Architecture</th>
 <th>Application Architecture - Intermediate</th>
 </tr>
 <tr>
 <th>Vadlejch Petr</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Architecture</th>
 <th>Technology architecture - Intermediate</th>
 </tr>
 <tr>
 <th>Vadlejch Petr</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Domain Knowledge</th>
 <th>PSP/BPO - Advanced</th>
 </tr>
 <tr>
 <th>Vadlejch Petr</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Domain Knowledge</th>
 <th>Insurance - Advanced</th>
 </tr>
 <tr>
 <th>Vadlejch Petr</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Domain Knowledge</th>
 <th>Telco - Advanced</th>
 </tr>
 <tr>
 <th>Vadlejch Petr</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Domain Knowledge</th>
 <th>Bank - Intermediate</th>
 </tr>
 <tr>
 <th>Vadlejch Petr</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Project Management</th>
 <th>Project Management - Basic</th>
 </tr>
 <tr>
 <th>Vadlejch Petr</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Project Management</th>
 <th>Requirements Engineering - Advanced</th>
 </tr>
 <tr>
 <th>Vadlejch Petr</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Language</th>
 <th>English - Intermediate</th>
 </tr>
 <tr>
 <th>Vadlejch Petr</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Language</th>
 <th>Slovak - Expert</th>
 </tr>
 <tr>
 <th>Vadlejch Petr</th>
 <th>Czech Republic</th>
 <th>Senior Professional Services Consultant</th>
+<th>Language</th>
 <th>Czech - Expert</th>
 </tr>
 <tr>
 <th>Zezulková Petra</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Inspire Products Competencies</th>
 <th>Inspire Designer - Advanced</th>
 </tr>
 <tr>
 <th>Zezulková Petra</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Inspire Products Competencies</th>
 <th>Inspire Automation - Intermediate</th>
 </tr>
 <tr>
 <th>Zezulková Petra</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Inspire Products Competencies</th>
 <th>Inspire Content Manager - Advanced</th>
 </tr>
 <tr>
 <th>Zezulková Petra</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Inspire Products Competencies</th>
 <th>Inspire Interactive - Advanced</th>
 </tr>
 <tr>
 <th>Zezulková Petra</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Inspire Products Competencies</th>
 <th>Inspire Interactive Classic - Intermediate</th>
 </tr>
 <tr>
 <th>Zezulková Petra</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Inspire Products Competencies</th>
 <th>Inspire Dynamic Communication - Basic</th>
 </tr>
 <tr>
 <th>Zezulková Petra</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Inspire Products Competencies</th>
 <th>Inspire Connect Java - Intermediate</th>
 </tr>
 <tr>
 <th>Zezulková Petra</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Inspire Products Competencies</th>
 <th>Inspire Connect .NET - Basic</th>
 </tr>
 <tr>
 <th>Zezulková Petra</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Inspire Products Competencies</th>
 <th>Inspire Approval - Intermediate</th>
 </tr>
 <tr>
 <th>Zezulková Petra</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Inspire Products Competencies</th>
 <th>Inspire Messenger - Basic</th>
 </tr>
 <tr>
 <th>Zezulková Petra</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Inspire Products Competencies</th>
 <th>Inspire Cloud - Basic</th>
 </tr>
 <tr>
 <th>Zezulková Petra</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Inspire Products Competencies</th>
 <th>Inspire Scaler - Basic</th>
 </tr>
 <tr>
 <th>Zezulková Petra</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Inspire Products Competencies</th>
 <th>Inspire Hybridmail - Basic</th>
 </tr>
 <tr>
 <th>Zezulková Petra</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Inspire Products Competencies</th>
 <th>Inspire Storefront - Basic</th>
 </tr>
 <tr>
 <th>Zezulková Petra</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Inspire Products Competencies</th>
 <th>Inspire Consolidate - Basic</th>
 </tr>
 <tr>
 <th>Zezulková Petra</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Inspire Products Competencies</th>
 <th>Inspire Tracker - Intermediate</th>
 </tr>
 <tr>
 <th>Zezulková Petra</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Inspire Products Competencies</th>
 <th>Inspire E-mail Gateway - Basic</th>
 </tr>
 <tr>
 <th>Zezulková Petra</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Inspire Products Competencies</th>
 <th>Inspire Control - Basic</th>
 </tr>
 <tr>
 <th>Zezulková Petra</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Inspire Products Competencies</th>
 <th>Inspire Compare - Basic</th>
 </tr>
 <tr>
 <th>Zezulková Petra</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Inspire Products Competencies</th>
 <th>Inspire Mobile - Basic</th>
 </tr>
 <tr>
 <th>Zezulková Petra</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Inspire Products Competencies</th>
 <th>GMC License Manager - Advanced</th>
 </tr>
 <tr>
 <th>Zezulková Petra</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Operating Systems</th>
 <th>Windows - Advanced</th>
 </tr>
 <tr>
 <th>Zezulková Petra</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Operating Systems</th>
 <th>Mac - Advanced</th>
 </tr>
 <tr>
 <th>Zezulková Petra</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Operating Systems</th>
 <th>Linux - Expert</th>
 </tr>
 <tr>
 <th>Zezulková Petra</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Operating Systems</th>
 <th>Solaris - Advanced</th>
 </tr>
 <tr>
 <th>Zezulková Petra</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Operating Systems</th>
 <th>AIX - Advanced</th>
 </tr>
 <tr>
 <th>Zezulková Petra</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Web Servers</th>
 <th>IIS - Advanced</th>
 </tr>
 <tr>
 <th>Zezulková Petra</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Web Servers</th>
 <th>Apache HTTP Server - Intermediate</th>
 </tr>
 <tr>
 <th>Zezulková Petra</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Web Servers</th>
 <th>Apache Tomcat - Intermediate</th>
 </tr>
 <tr>
 <th>Zezulková Petra</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Web Servers</th>
 <th>WebLogic - Advanced</th>
 </tr>
 <tr>
 <th>Zezulková Petra</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Web Servers</th>
 <th>WebSphere - Advanced</th>
 </tr>
 <tr>
 <th>Zezulková Petra</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Web Servers</th>
 <th>Jboss - Intermediate</th>
 </tr>
 <tr>
 <th>Zezulková Petra</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>ESB</th>
 <th>ESB - Intermediate</th>
 </tr>
 <tr>
 <th>Zezulková Petra</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>ESB</th>
 <th>JMS Queue - Advanced</th>
 </tr>
 <tr>
 <th>Zezulková Petra</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>ESB</th>
 <th>IBM M-Queue - Expert</th>
 </tr>
 <tr>
 <th>Zezulková Petra</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Database</th>
 <th>MSSQL - Advanced</th>
 </tr>
 <tr>
 <th>Zezulková Petra</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Database</th>
 <th>MySQL - Advanced</th>
 </tr>
 <tr>
 <th>Zezulková Petra</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Database</th>
 <th>MS Access - Advanced</th>
 </tr>
 <tr>
 <th>Zezulková Petra</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Database</th>
 <th>Oracle - Expert</th>
 </tr>
 <tr>
 <th>Zezulková Petra</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Programming</th>
 <th>Ruby - Intermediate</th>
 </tr>
 <tr>
 <th>Zezulková Petra</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Programming</th>
 <th>C - Intermediate</th>
 </tr>
 <tr>
 <th>Zezulková Petra</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Programming</th>
 <th>Python - Basic</th>
 </tr>
 <tr>
 <th>Zezulková Petra</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Programming</th>
 <th>JAVA  - Basic</th>
 </tr>
 <tr>
 <th>Zezulková Petra</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Programming</th>
 <th>JavaScript - Basic</th>
 </tr>
 <tr>
 <th>Zezulková Petra</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Programming</th>
 <th>C++ - Intermediate</th>
 </tr>
 <tr>
 <th>Zezulková Petra</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Programming</th>
 <th>C# - Intermediate</th>
 </tr>
 <tr>
 <th>Zezulková Petra</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Programming</th>
 <th>PERL - Basic</th>
 </tr>
 <tr>
 <th>Zezulková Petra</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Programming</th>
 <th>HTML - Intermediate</th>
 </tr>
 <tr>
 <th>Zezulková Petra</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Programming</th>
 <th>CSS - Basic</th>
 </tr>
 <tr>
 <th>Zezulková Petra</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Programming</th>
 <th>(X) HTML - Intermediate</th>
 </tr>
 <tr>
 <th>Zezulková Petra</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Programming</th>
 <th>XML - Advanced</th>
 </tr>
 <tr>
 <th>Zezulková Petra</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Programming</th>
 <th>JSON - Basic</th>
 </tr>
 <tr>
 <th>Zezulková Petra</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Programming</th>
 <th>Groovy - Basic</th>
 </tr>
 <tr>
 <th>Zezulková Petra</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Programming</th>
 <th>Bobril - Basic</th>
 </tr>
 <tr>
 <th>Zezulková Petra</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Programming</th>
 <th>SQL - Advanced</th>
 </tr>
 <tr>
 <th>Zezulková Petra</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Programming</th>
 <th>T-SQL (MSSQL) - Advanced</th>
 </tr>
 <tr>
 <th>Zezulková Petra</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Programming</th>
 <th>PL/SQL (Oracle) - Advanced</th>
 </tr>
 <tr>
 <th>Zezulková Petra</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Programming</th>
 <th>SQL PL (DB2) - Advanced</th>
 </tr>
 <tr>
 <th>Zezulková Petra</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Programming</th>
 <th>PHP - Intermediate</th>
 </tr>
 <tr>
 <th>Zezulková Petra</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Virtualization</th>
 <th>Virtual Box - Advanced</th>
 </tr>
 <tr>
 <th>Zezulková Petra</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Virtualization</th>
 <th>VMWare - Advanced</th>
 </tr>
 <tr>
 <th>Zezulková Petra</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Security</th>
 <th>Antivirus - Basic</th>
 </tr>
 <tr>
 <th>Zezulková Petra</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Security</th>
 <th>Firewall - Intermediate</th>
 </tr>
 <tr>
 <th>Zezulková Petra</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Security</th>
 <th>SSL / TLS - Intermediate</th>
 </tr>
 <tr>
 <th>Zezulková Petra</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Security</th>
 <th>SFTP - Intermediate</th>
 </tr>
 <tr>
 <th>Zezulková Petra</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Technical Related Competencies</th>
 <th>Technical support and troubleshooting - Intermediate</th>
 </tr>
 <tr>
 <th>Zezulková Petra</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Technical Related Competencies</th>
 <th>Web Development - Intermediate</th>
 </tr>
 <tr>
 <th>Zezulková Petra</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Technical Related Competencies</th>
 <th>Big Data - Intermediate</th>
 </tr>
 <tr>
 <th>Zezulková Petra</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Technical Related Competencies</th>
 <th>Cloud/SaaS - Intermediate</th>
 </tr>
 <tr>
 <th>Zezulková Petra</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Technical Related Competencies</th>
 <th>Network Management - Basic</th>
 </tr>
 <tr>
 <th>Zezulková Petra</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Outputs</th>
 <th>PDF</th>
 </tr>
 <tr>
 <th>Zezulková Petra</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Outputs</th>
 <th>IPDS</th>
 </tr>
 <tr>
 <th>Zezulková Petra</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Outputs</th>
 <th>PCL</th>
 </tr>
 <tr>
 <th>Zezulková Petra</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Outputs</th>
 <th>AFP</th>
 </tr>
 <tr>
 <th>Zezulková Petra</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Outputs</th>
 <th>HTML</th>
 </tr>
 <tr>
 <th>Zezulková Petra</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Outputs</th>
 <th>Docx</th>
 </tr>
 <tr>
 <th>Zezulková Petra</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Outputs</th>
 <th>RTF</th>
 </tr>
 <tr>
 <th>Zezulková Petra</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Outputs</th>
 <th>TNO</th>
 </tr>
 <tr>
 <th>Zezulková Petra</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Architecture</th>
 <th>Data Architecture - Advanced</th>
 </tr>
 <tr>
 <th>Zezulková Petra</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Architecture</th>
 <th>Application Architecture - Intermediate</th>
 </tr>
 <tr>
 <th>Zezulková Petra</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Architecture</th>
 <th>Use Case Modeling - Intermediate</th>
 </tr>
 <tr>
 <th>Zezulková Petra</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Architecture</th>
 <th>Process Modeling - Intermediate</th>
 </tr>
 <tr>
 <th>Zezulková Petra</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Domain Knowledge</th>
 <th>Insurance - Intermediate</th>
 </tr>
 <tr>
 <th>Zezulková Petra</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Domain Knowledge</th>
 <th>Bank - Intermediate</th>
 </tr>
 <tr>
 <th>Zezulková Petra</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Language</th>
 <th>English - Advanced</th>
 </tr>
 <tr>
 <th>Zezulková Petra</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Language</th>
 <th>Slovak - Advanced</th>
 </tr>
 <tr>
 <th>Zezulková Petra</th>
 <th>Czech Republic</th>
 <th>Professional Services Consultant</th>
+<th>Language</th>
 <th>Czech - Expert</th>
 </tr>
 <tr>
 <th>Pintová Sejnová Zuzana</th>
 <th>Czech Republic</th>
 <th>Project Manager</th>
+<th>Project Management</th>
 <th>Project Management - Advanced</th>
 </tr>
 <tr>
 <th>Pintová Sejnová Zuzana</th>
 <th>Czech Republic</th>
 <th>Project Manager</th>
+<th>Project Management</th>
 <th>Requirements Engineering - Intermediate</th>
 </tr>
 <tr>
 <th>Pintová Sejnová Zuzana</th>
 <th>Czech Republic</th>
 <th>Project Manager</th>
+<th>Language</th>
 <th>English - Intermediate</th>
 </tr>
 <tr>
 <th>Pintová Sejnová Zuzana</th>
 <th>Czech Republic</th>
 <th>Project Manager</th>
+<th>Language</th>
 <th>Italian - Basic</th>
 </tr>
 <tr>
 <th>Svítil Jakub</th>
 <th>PSO</th>
 <th>PSA Manager</th>
+<th>PSO Skills</th>
 <th>IIS</th>
 </tr>
 <tr>
 <th>Svítil Jakub</th>
 <th>PSO</th>
 <th>PSA Manager</th>
+<th>PSO Skills</th>
 <th>Apache HTTP Server</th>
 </tr>
 <tr>
 <th>Svítil Jakub</th>
 <th>PSO</th>
 <th>PSA Manager</th>
+<th>PSO Skills</th>
 <th>Apache Tomcat</th>
 </tr>
 <tr>
 <th>Svítil Jakub</th>
 <th>PSO</th>
 <th>PSA Manager</th>
+<th>PSO Skills</th>
 <th>WebLogic</th>
 </tr>
 <tr>
 <th>Svítil Jakub</th>
 <th>PSO</th>
 <th>PSA Manager</th>
+<th>PSO Skills</th>
 <th>MSSQL - Intermediate</th>
 </tr>
 <tr>
 <th>Svítil Jakub</th>
 <th>PSO</th>
 <th>PSA Manager</th>
+<th>PSO Skills</th>
 <th>MS Access - Intermediate  </th>
 </tr>
 <tr>
 <th>Svítil Jakub</th>
 <th>PSO</th>
 <th>PSA Manager</th>
+<th>PSO Skills</th>
 <th>MSSQL - Advanced</th>
 </tr>
 <tr>
 <th>Svítil Jakub</th>
 <th>PSO</th>
 <th>PSA Manager</th>
+<th>PSO Skills</th>
 <th>MySQL - Advanced</th>
 </tr>
 <tr>
 <th>Svítil Jakub</th>
 <th>PSO</th>
 <th>PSA Manager</th>
+<th>PSO Skills</th>
 <th>Oracle - Advanced</th>
 </tr>
 <tr>
 <th>Svítil Jakub</th>
 <th>PSO</th>
 <th>PSA Manager</th>
+<th>PSO Skills</th>
 <th>MS Access - Advanced</th>
 </tr>
 <tr>
 <th>Svítil Jakub</th>
 <th>PSO</th>
 <th>PSA Manager</th>
+<th>Inspire Products Competencies</th>
 <th>Inspire Designer - Basic</th>
 </tr>
 <tr>
 <th>Svítil Jakub</th>
 <th>PSO</th>
 <th>PSA Manager</th>
+<th>Inspire Products Competencies</th>
 <th>Inspire Automation - Intermediate</th>
 </tr>
 <tr>
 <th>Svítil Jakub</th>
 <th>PSO</th>
 <th>PSA Manager</th>
+<th>Inspire Products Competencies</th>
 <th>Inspire Automation - Expert</th>
 </tr>
 <tr>
 <th>Svítil Jakub</th>
 <th>PSO</th>
 <th>PSA Manager</th>
+<th>Organizing and Supevision</th>
 <th>Team management - Basic</th>
 </tr>
 <tr>
 <th>Svítil Jakub</th>
 <th>PSO</th>
 <th>PSA Manager</th>
+<th>Organizing and Supevision</th>
 <th>Coaching - Basic</th>
 </tr>
 <tr>
 <th>Svítil Jakub</th>
 <th>PSO</th>
 <th>PSA Manager</th>
+<th>Organizing and Supevision</th>
 <th>Goal Oriented - Basic</th>
 </tr>
 <tr>
 <th>Svítil Jakub</th>
 <th>PSO</th>
 <th>PSA Manager</th>
+<th>Organizing and Supevision</th>
 <th>Organisational Processes and Structures - Basic</th>
 </tr>
 <tr>
 <th>Svítil Jakub</th>
 <th>PSO</th>
 <th>PSA Manager</th>
+<th>Work Quality</th>
 <th>Delivery in defined quality - Basic</th>
 </tr>
 <tr>
 <th>Svítil Jakub</th>
 <th>PSO</th>
 <th>PSA Manager</th>
+<th>Work Quality</th>
 <th>Delivery in defined quality - Intermediate</th>
 </tr>
-
-
-        </tbody>
-    </table>
-
+</tbody>
+</table>
 </body>
 </html>
